@@ -1,8 +1,10 @@
 import axios from 'axios';
 // import {ApiRoutes} from "../routes/routeConstants/apiRoutes";
 
-let ApiRoutes = {
-    BASE_URL : ""
+export const ApiRoutes = {
+    BASE_URL : "https://restcountries.com/v3.1",
+    ALL: "/all"
+
 }
 
 const axiosInstance = axios.create({
