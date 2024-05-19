@@ -1,0 +1,8 @@
+.navbar-container{
+  width: 100vw;
+  background-color: #fff;
+  
+}
+.navbar-container .nav-title{
+  font-size: 1.5rem;   
+}
